@@ -1,0 +1,8 @@
+term         = /usr/bin/kitty
+key_expand   = Alt_L
+key_up       = Shift_L Tab
+key_down     = Tab
+allow_images = true
+allow_markup = true
+insensitive  = true
+no_actions   = true
