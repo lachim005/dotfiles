@@ -7,6 +7,12 @@ final_space = true
   alignment = 'left'
 
   [[blocks.segments]]
+    template = '{{ if .SSHSession }}@{{ .HostName }} {{ end }}'
+    foreground = 'yellow'
+    type = 'session'
+    style = 'plain'
+
+  [[blocks.segments]]
     template = '{{ .Path }}'
     foreground = 'red'
     type = 'path'

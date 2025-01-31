@@ -19,6 +19,7 @@ alias lla='ls -al --color=auto'
 alias grep='grep --color=auto'
 alias cd..='cd ..'
 alias dc='cd'
+alias ff='fastfetch'
 
 function mkcd()
 {
