@@ -1,0 +1,20 @@
+menu_parent h Left
+menu_child  l Right
+menu_down   j Down
+menu_up     k Up
+menu_select space Return
+
+next_img C-n Right
+prev_img C-p Left
+
+# and image movement
+scroll_up    k C-Up
+scroll_down  j C-Down
+scroll_left  h C-Left
+scroll_right l C-Right
+
+
+zoom_in  i
+zoom_out o
+zoom_default d
+zoom_fit f

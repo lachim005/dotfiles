@@ -20,6 +20,7 @@ alias grep='grep --color=auto'
 alias cd..='cd ..'
 alias dc='cd'
 alias ff='fastfetch'
+alias ran='ranger'
 
 function mkcd()
 {
@@ -42,5 +43,7 @@ compinit
 
 export PATH=$PATH:~/.local/bin/
 export PATH=$PATH:~/.cargo/bin/
+export VISUAL=nvim
+export EDITOR=nvim
 
 eval "$(oh-my-posh init zsh --config $HOME/.config/omp/base.toml)"
