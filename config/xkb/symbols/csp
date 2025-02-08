@@ -1,0 +1,30 @@
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+
+    include "us"
+    name[Group1]= "Czech";
+
+    key <TLDE>	{[   grave,	 asciitilde, semicolon, dead_abovering]};
+    key <AE01>	{[	 1,	 exclam, plus, dead_tilde]};
+    key <AE02>	{[	 2,	 at, ecaron, dead_caron]};
+    key <AE03>	{[	 3,	 numbersign, scaron, dead_circumflex]};
+    key <AE04>	{[	 4,	 dollar, ccaron, dead_breve]};
+    key <AE05>	{[	 5,	 percent, rcaron, dead_abovering]};
+    key <AE06>	{[	 6,	 asciicircum, zcaron, dead_ogonek]};
+    key <AE07>	{[	 7,	 ampersand, yacute, dead_grave]};
+    key <AE08>	{[	 8,	 asterisk, aacute, dead_abovedot]};
+    key <AE09>	{[	 9,	 parenleft, iacute, dead_acute]};
+    key <AE10>	{[	 0,	 parenright, eacute, dead_doubleacute]};
+    key <AE11>	{[   minus,	 underscore, dead_cedilla, dead_diaeresis]};
+    key <AE12>	{[   equal,	 plus, dead_acute, dead_caron ]};
+
+    key <AD03>	{[         e,          E,     EuroSign,     NoSymbol ]};
+
+    key <AD11>	{[ bracketleft,	 braceleft, uacute, division]};
+    key <AC10>	{[ semicolon,	 colon, uring, multiply]};
+    key <AC11>	{[ apostrophe,	 quotedbl, secction, ssharp]};
+    key <BKSL>	{[ backslash,	 bar, dead_diaeresis, NoSymbol]};
+
+
+    include "level3(ralt_switch)"
+};

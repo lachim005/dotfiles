@@ -1,0 +1,4 @@
+! option   = symbols
+  csp:basic  = +csp(basic)
+
+! include %S/evdev
