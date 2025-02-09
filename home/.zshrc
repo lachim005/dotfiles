@@ -21,6 +21,8 @@ alias cd..='cd ..'
 alias dc='cd'
 alias ff='fastfetch'
 alias ran='ranger'
+alias cdf='cd $(fd -t d | fzf)'
+alias nvf='nvim $(fd | fzf)'
 
 function mkcd()
 {
